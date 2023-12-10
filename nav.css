@@ -153,23 +153,43 @@ a{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding-left: 30px;
-        padding-right: 10rem;
+        padding-left: 45px;
+        padding-right: 1rem;
         padding-top: 0.75rem;
         padding-bottom: 0.75rem;
         background-color: rgb(226, 226, 226);
         height: 100%;
+    }
+    .menu-navbar{
+        color: #047659;
+        display: flex;
+        flex-direction: row;
+        margin-left: calc 3.5rem;
+        margin-right: calc 3.5rem;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: 600;
+        font-size: 16px;
     }
     .nav-margin{
         margin-right: 25px;
     }
     .judul{
         font-weight: 700;
-        font-size: 0.9rem;
+        font-size: 1.5rem;
         color: #288870;
     }
     .ul-profile{
         padding-left: 50px ;
         padding-right: 80px ;
+    }
+    .lucide-profile{
+        width: 1.5rem;
+    }
+    .text-profile{
+        margin-left: 10px;
+        font-size: 0.95rem;
+        line-height: 1rem;
+        font-weight: 600;
     }
 }

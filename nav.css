@@ -175,9 +175,7 @@ a{
         margin-right: 25px;
     }
     .judul{
-        font-weight: 700;
-        font-size: 1.5rem;
-        color: #288870;
+        display: none;
     }
     .ul-profile{
         padding-left: 50px ;

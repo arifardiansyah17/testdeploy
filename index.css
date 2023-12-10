@@ -10,7 +10,6 @@ html,body {
 a{
     text-decoration: none;
 }
-
 .main-home-section{
     height: 100vh;
     display: flex;
@@ -58,39 +57,10 @@ a{
     color: #ffffff;
     text-align: center;
 }
-
 .button-join:hover {
     cursor: pointer;
     background-color: #6e6e6e;
     color: rgb(0, 0, 0);
-}
-
-@media screen and (max-width:480px) {
-    .home-section{
-        display: flex;
-        flex-direction: column;
-    }
-    .main-home-section{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        padding-right: 120px;
-    }
-
-    section main div h1{
-        font-weight: 400;
-        margin-top: 100px;
-        text-align: justify;
-        margin-right: 35px;
-    }
-
-    section main div p{
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 1.75rem;
-        text-align: justify;
-    }
-
 }
 .div2-main-home-section{
     width: 50%;
@@ -101,8 +71,60 @@ a{
 .img-div2-main-home-section{
     width: 600px/* 48px */;
     padding-right: 80px;
-    border-radius: 0.5rem/* 8px */;
-    
+    border-radius: 0.5rem/* 8px */; 
+}
+
+@media screen and (max-width:480px) {
+    .home-section{
+        display: flex;
+        flex-direction: column;
+        height: 200vh;
+    }
+    .div1-main-home-section{
+        padding-top: 105vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 300px;
+        padding-right: 20px;
+        margin-bottom: 20px;
+    }
+    .main-home-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-right: 100px; 
+        align-items: center;
+        justify-content: center;
+    }
+    section main div h1{
+        font-weight: 400;
+        margin-top: 100px;
+        text-align: justify;
+        font-size: 2.5rem;
+    }
+
+    section main div p{
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.75rem;
+        text-align: justify;
+        margin-bottom: 40px;
+    }
+    .button-join{
+        margin-top: 20px;
+        width: 490px;
+    }
+    .div2-main-home-section{
+        
+        padding-left: 300px;
+    }
+    .img-div2-main-home-section{
+        width: 500px;
+        padding-right: 100px;
+        border-radius: 0.5rem; 
+    }
 }
 
 /* --------------------------------------
@@ -240,6 +262,10 @@ a{
     color: aliceblue;
     background-color: #2d8770;
     text-align: center;    
+}
+
+@media screen and (max-width:480px){
+    
 }
 
 /* -----------------------

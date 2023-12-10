@@ -81,7 +81,7 @@ a{
         height: 200vh;
     }
     .div1-main-home-section{
-        padding-top: 105vh;
+        padding-top: 50px;
         width: 100%;
         display: flex;
         flex-direction: column;
